@@ -1,3 +1,4 @@
+# Esta función recibe un número entero positivo n y devuelve una lista con los n primeros términos de la secuencia de Fibonacci.
 def fibonacci(n):
     if n <= 0:
         return []
@@ -11,6 +12,7 @@ def fibonacci(n):
             fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
         return fib_sequence
 
+# Prueba de la función fibonacci(n)
 try:
     n = int(input("Ingrese la cantidad de términos de la secuencia de Fibonacci que desea imprimir: "))
     if n <= 0:
@@ -19,5 +21,6 @@ try:
         print("Secuencia de Fibonacci:")
         fib_sequence = fibonacci(n)
         print(fib_sequence)
+        print("mads ou llea")
 except ValueError:
     print("Por favor, ingrese un número válido.")
