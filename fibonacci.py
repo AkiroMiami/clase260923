@@ -24,3 +24,5 @@ try:
         print("mads ou llea")
 except ValueError:
     print("Por favor, ingrese un número válido.")
+
+print("ou llea ")
