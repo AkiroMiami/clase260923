@@ -21,7 +21,12 @@ try:
         print("Secuencia de Fibonacci:")
         fib_sequence = fibonacci(n)
         print(fib_sequence)
+        RamaLonzo
         print("OlaLoEditoelLonzo")
+        print("ou llea pal loncitoo")
+        main
         print("mads ou llea")
 except ValueError:
     print("Por favor, ingrese un número válido.")
+
+print("ou llea ")
